@@ -1,0 +1,3 @@
+/images/
+/train result/*/weights/
+!/train result/*/weights/best.pt
