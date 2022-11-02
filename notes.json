@@ -1,0 +1,221 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "100m"
+    },
+    {
+      "id": 1,
+      "name": "200m"
+    },
+    {
+      "id": 2,
+      "name": "300m"
+    },
+    {
+      "id": 3,
+      "name": "Ban on learning"
+    },
+    {
+      "id": 4,
+      "name": "Inclined road"
+    },
+    {
+      "id": 5,
+      "name": "MTR"
+    },
+    {
+      "id": 6,
+      "name": "No bicycles"
+    },
+    {
+      "id": 7,
+      "name": "No left turns"
+    },
+    {
+      "id": 8,
+      "name": "No parking"
+    },
+    {
+      "id": 9,
+      "name": "No passing"
+    },
+    {
+      "id": 10,
+      "name": "Notice"
+    },
+    {
+      "id": 11,
+      "name": "One Way"
+    },
+    {
+      "id": 12,
+      "name": "Weight limit"
+    },
+    {
+      "id": 13,
+      "name": "Work ahead"
+    },
+    {
+      "id": 14,
+      "name": "ban cars"
+    },
+    {
+      "id": 15,
+      "name": "ban for people"
+    },
+    {
+      "id": 16,
+      "name": "ban sound"
+    },
+    {
+      "id": 17,
+      "name": "bicycle"
+    },
+    {
+      "id": 18,
+      "name": "black dot"
+    },
+    {
+      "id": 19,
+      "name": "cam"
+    },
+    {
+      "id": 20,
+      "name": "end of the road"
+    },
+    {
+      "id": 21,
+      "name": "forward"
+    },
+    {
+      "id": 22,
+      "name": "give way"
+    },
+    {
+      "id": 23,
+      "name": "go ahead"
+    },
+    {
+      "id": 24,
+      "name": "high limit"
+    },
+    {
+      "id": 25,
+      "name": "highway"
+    },
+    {
+      "id": 26,
+      "name": "highway end"
+    },
+    {
+      "id": 27,
+      "name": "landslide"
+    },
+    {
+      "id": 28,
+      "name": "length limit"
+    },
+    {
+      "id": 29,
+      "name": "limit"
+    },
+    {
+      "id": 30,
+      "name": "limited width"
+    },
+    {
+      "id": 31,
+      "name": "no U-turn"
+    },
+    {
+      "id": 32,
+      "name": "no stop"
+    },
+    {
+      "id": 33,
+      "name": "no turn right/left"
+    },
+    {
+      "id": 34,
+      "name": "not enter"
+    },
+    {
+      "id": 35,
+      "name": "parking"
+    },
+    {
+      "id": 36,
+      "name": "people first"
+    },
+    {
+      "id": 37,
+      "name": "road fork"
+    },
+    {
+      "id": 38,
+      "name": "road merge"
+    },
+    {
+      "id": 39,
+      "name": "roundabout"
+    },
+    {
+      "id": 40,
+      "name": "school"
+    },
+    {
+      "id": 41,
+      "name": "sharp bend"
+    },
+    {
+      "id": 42,
+      "name": "sharp bend ahead"
+    },
+    {
+      "id": 43,
+      "name": "slippery road"
+    },
+    {
+      "id": 44,
+      "name": "slow"
+    },
+    {
+      "id": 45,
+      "name": "speed limit"
+    },
+    {
+      "id": 46,
+      "name": "stay right/left"
+    },
+    {
+      "id": 47,
+      "name": "stop"
+    },
+    {
+      "id": 48,
+      "name": "traffic light"
+    },
+    {
+      "id": 49,
+      "name": "tunnel"
+    },
+    {
+      "id": 50,
+      "name": "turn ahead"
+    },
+    {
+      "id": 51,
+      "name": "turn right/left"
+    },
+    {
+      "id": 52,
+      "name": "uneven road"
+    }
+  ],
+  "info": {
+    "year": 2022,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
