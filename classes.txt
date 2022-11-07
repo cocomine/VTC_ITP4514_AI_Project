@@ -5,8 +5,6 @@ Ban on learning
 Inclined road
 MTR
 No bicycles
-No left turns
-No parking
 No passing
 Notice
 One Way
@@ -19,7 +17,6 @@ bicycle
 black dot
 cam
 end of the road
-forward
 give way
 go ahead
 high limit
@@ -30,10 +27,10 @@ length limit
 limit
 limited width
 no U-turn
-no stop
 no turn right/left
 not enter
 parking
+people cross
 people first
 road fork
 road merge

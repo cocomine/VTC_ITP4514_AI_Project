@@ -30,186 +30,174 @@
     },
     {
       "id": 7,
-      "name": "No left turns"
-    },
-    {
-      "id": 8,
-      "name": "No parking"
-    },
-    {
-      "id": 9,
       "name": "No passing"
     },
     {
-      "id": 10,
+      "id": 8,
       "name": "Notice"
     },
     {
-      "id": 11,
+      "id": 9,
       "name": "One Way"
     },
     {
-      "id": 12,
+      "id": 10,
       "name": "Weight limit"
     },
     {
-      "id": 13,
+      "id": 11,
       "name": "Work ahead"
     },
     {
-      "id": 14,
+      "id": 12,
       "name": "ban cars"
     },
     {
-      "id": 15,
+      "id": 13,
       "name": "ban for people"
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "ban sound"
     },
     {
-      "id": 17,
+      "id": 15,
       "name": "bicycle"
     },
     {
-      "id": 18,
+      "id": 16,
       "name": "black dot"
     },
     {
-      "id": 19,
+      "id": 17,
       "name": "cam"
     },
     {
-      "id": 20,
+      "id": 18,
       "name": "end of the road"
     },
     {
-      "id": 21,
-      "name": "forward"
-    },
-    {
-      "id": 22,
+      "id": 19,
       "name": "give way"
     },
     {
-      "id": 23,
+      "id": 20,
       "name": "go ahead"
     },
     {
-      "id": 24,
+      "id": 21,
       "name": "high limit"
     },
     {
-      "id": 25,
+      "id": 22,
       "name": "highway"
     },
     {
-      "id": 26,
+      "id": 23,
       "name": "highway end"
     },
     {
-      "id": 27,
+      "id": 24,
       "name": "landslide"
     },
     {
-      "id": 28,
+      "id": 25,
       "name": "length limit"
     },
     {
-      "id": 29,
+      "id": 26,
       "name": "limit"
     },
     {
-      "id": 30,
+      "id": 27,
       "name": "limited width"
     },
     {
-      "id": 31,
+      "id": 28,
       "name": "no U-turn"
     },
     {
-      "id": 32,
-      "name": "no stop"
-    },
-    {
-      "id": 33,
+      "id": 29,
       "name": "no turn right/left"
     },
     {
-      "id": 34,
+      "id": 30,
       "name": "not enter"
     },
     {
-      "id": 35,
+      "id": 31,
       "name": "parking"
     },
     {
-      "id": 36,
+      "id": 32,
+      "name": "people cross"
+    },
+    {
+      "id": 33,
       "name": "people first"
     },
     {
-      "id": 37,
+      "id": 34,
       "name": "road fork"
     },
     {
-      "id": 38,
+      "id": 35,
       "name": "road merge"
     },
     {
-      "id": 39,
+      "id": 36,
       "name": "roundabout"
     },
     {
-      "id": 40,
+      "id": 37,
       "name": "school"
     },
     {
-      "id": 41,
+      "id": 38,
       "name": "sharp bend"
     },
     {
-      "id": 42,
+      "id": 39,
       "name": "sharp bend ahead"
     },
     {
-      "id": 43,
+      "id": 40,
       "name": "slippery road"
     },
     {
-      "id": 44,
+      "id": 41,
       "name": "slow"
     },
     {
-      "id": 45,
+      "id": 42,
       "name": "speed limit"
     },
     {
-      "id": 46,
+      "id": 43,
       "name": "stay right/left"
     },
     {
-      "id": 47,
+      "id": 44,
       "name": "stop"
     },
     {
-      "id": 48,
+      "id": 45,
       "name": "traffic light"
     },
     {
-      "id": 49,
+      "id": 46,
       "name": "tunnel"
     },
     {
-      "id": 50,
+      "id": 47,
       "name": "turn ahead"
     },
     {
-      "id": 51,
+      "id": 48,
       "name": "turn right/left"
     },
     {
-      "id": 52,
+      "id": 49,
       "name": "uneven road"
     }
   ],

@@ -92,7 +92,20 @@ def transform(image, bboxes, classID):
          A.Blur(p=0.5, blur_limit=3),
          A.CenterCrop(p=0.1, width=int(w / 2), height=int(h / 2)),
          A.RandomShadow(num_shadows_lower=1, num_shadows_upper=1, shadow_dimension=5, shadow_roi=(0, 0.5, 1, 1), p=0.3),
-         A.RandomSunFlare(flare_roi=(0, 0, 1, 0.5), angle_lower=0.5, p=0.2, src_radius=300)],
+         A.RandomSunFlare(flare_roi=(0, 0, 1, 0.5), angle_lower=0.5, p=0.2, src_radius=300),
+         A.LongestMaxSize(p=1, max_size=640, always_apply=True)],
+        bbox_params=A.BboxParams(format='yolo', label_fields=['classID'], min_visibility=0.15),
+    )
+    transformed = transform(image=image, bboxes=bboxes, classID=classID)
+
+    return transformed
+
+
+# Resize Img
+def resize(image, bboxes, classID):
+
+    transform = A.Compose(
+        [A.LongestMaxSize(p=1, max_size=640, always_apply=True)],
         bbox_params=A.BboxParams(format='yolo', label_fields=['classID'], min_visibility=0.15),
     )
     transformed = transform(image=image, bboxes=bboxes, classID=classID)
@@ -118,7 +131,7 @@ classNames = load_class(classFile)  # load class name
 # loop img
 for root, dirs, files in os.walk(imgFolder):
     for file in files:
-        if file.endswith(".jpg") | file.endswith(".png"):
+        if file.endswith(".jpg") | file.endswith(".png") | file.endswith(".JPG"):
             imgPath = imgFolder + '/' + file
             txtPath = labelFolder + '/' + file[:-4] + ".txt"
             print('Read: ', imgPath, txtPath)
@@ -133,7 +146,7 @@ for root, dirs, files in os.walk(imgFolder):
             # visualize(image, bboxes, classID, classNames)
 
             # transform
-            for i in range(5):
+            for i in range(4):
                 transformed = transform(image, bboxes, classID)
 
                 # show after
@@ -145,3 +158,12 @@ for root, dirs, files in os.walk(imgFolder):
 
                 cv2.imwrite(SaveImgPath, transformed['image'])
                 save_label(transformed['classID'], transformed['bboxes'], SaveLabelPath)
+
+
+            transformed = resize(image, bboxes, classID)
+            os.remove(imgPath)
+            os.remove(txtPath)
+            cv2.imwrite(imgPath, transformed['image'])
+            save_label(transformed['classID'], transformed['bboxes'], txtPath)
+            print('ReSize Save: ', imgPath, txtPath)
+            print()
