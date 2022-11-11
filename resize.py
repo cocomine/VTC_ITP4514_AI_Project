@@ -6,7 +6,7 @@ import albumentations as A
 
 def resize(image, bboxes, classID):
     transform = A.Compose(
-        [A.LongestMaxSize(p=1, max_size=640, always_apply=True)],
+        [A.LongestMaxSize(p=1, max_size=1000, always_apply=True)],
         bbox_params=A.BboxParams(format='yolo', label_fields=['classID'], min_visibility=0.15),
     )
     transformed = transform(image=image, bboxes=bboxes, classID=classID)

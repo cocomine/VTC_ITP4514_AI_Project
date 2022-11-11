@@ -93,7 +93,7 @@ def transform(image, bboxes, classID):
          A.CenterCrop(p=0.1, width=int(w / 2), height=int(h / 2)),
          A.RandomShadow(num_shadows_lower=1, num_shadows_upper=1, shadow_dimension=5, shadow_roi=(0, 0.5, 1, 1), p=0.3),
          A.RandomSunFlare(flare_roi=(0, 0, 1, 0.5), angle_lower=0.5, p=0.2, src_radius=300),
-         A.LongestMaxSize(p=1, max_size=640, always_apply=True)],
+         ],
         bbox_params=A.BboxParams(format='yolo', label_fields=['classID'], min_visibility=0.15),
     )
     transformed = transform(image=image, bboxes=bboxes, classID=classID)
@@ -159,11 +159,3 @@ for root, dirs, files in os.walk(imgFolder):
                 cv2.imwrite(SaveImgPath, transformed['image'])
                 save_label(transformed['classID'], transformed['bboxes'], SaveLabelPath)
 
-
-            transformed = resize(image, bboxes, classID)
-            os.remove(imgPath)
-            os.remove(txtPath)
-            cv2.imwrite(imgPath, transformed['image'])
-            save_label(transformed['classID'], transformed['bboxes'], txtPath)
-            print('ReSize Save: ', imgPath, txtPath)
-            print()
