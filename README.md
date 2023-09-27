@@ -3,7 +3,6 @@ ITP4514 py yolov7 AI Project
 路牌圖像識別
 
 # 效果
-![](result/exp2/f434a38526979cc2064aefd72a73fc9f--hongkong-climate-change.jpg)
 ![](result/exp2/gettyimages-948894048-612x612.jpg)
 ![](result/exp2/men-at-work-sign-and-road-work-signage-in-a-hong-kong-street-BXY7DD.jpg)
 ![](result/exp2/police-college-hk.webp)
